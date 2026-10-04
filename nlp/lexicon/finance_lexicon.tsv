@@ -1,0 +1,145 @@
+# Loughran-McDonald inspired finance-specific sentiment lexicon
+#
+# Format: one term per line, tab-separated: TERM<TAB>VALENCE
+# Valence is on [-4, 4] matching VADER's lexicon format.
+# Positive = bullish language, Negative = bearish language.
+#
+# Sources / inspiration:
+#   - Loughran & McDonald (2011) financial sentiment word lists
+#   - Common financial press terminology
+#   - Earnings call and analyst report language
+#
+# --- Strongly positive (bullish) ---
+beat	3.0
+beats	3.0
+exceeded	2.5
+outperform	2.5
+outperforms	2.5
+upgrade	2.8
+upgraded	2.8
+record revenue	3.5
+record earnings	3.5
+record profit	3.5
+strong earnings	3.0
+surpass	2.5
+surpassed	2.5
+rally	2.5
+rallied	2.5
+breakout	2.0
+bullish	2.5
+positive guidance	2.5
+raised guidance	3.0
+raises guidance	3.0
+above expectations	2.5
+above consensus	2.5
+blowout quarter	3.0
+dividend increase	2.0
+dividend hike	2.0
+buyback	1.8
+share repurchase	1.8
+acquisition	1.0
+expansion	1.5
+growth	1.5
+strong demand	2.5
+robust	2.0
+accelerating	2.0
+momentum	1.5
+upside	2.0
+tailwind	1.5
+optimistic	2.0
+rebound	2.0
+recovery	1.5
+all-time high	2.5
+new high	2.0
+innovation	1.5
+breakthrough	2.0
+approval	1.8
+fda approval	2.5
+partnership	1.5
+contract win	2.5
+contract award	2.5
+# --- Moderately positive ---
+steady	1.0
+stable	1.0
+in line	0.5
+resilient	1.5
+constructive	1.0
+improving	1.5
+favorable	1.5
+# --- Strongly negative (bearish) ---
+downgrade	-2.8
+downgraded	-2.8
+miss	-2.5
+missed	-2.5
+misses	-2.5
+guidance cut	-3.0
+cut guidance	-3.0
+lowered guidance	-3.0
+lowers guidance	-3.0
+profit warning	-3.0
+earnings warning	-3.0
+revenue miss	-3.0
+below expectations	-2.5
+below consensus	-2.5
+recall	-2.5
+recalled	-2.5
+lawsuit	-2.5
+litigation	-2.0
+investigation	-2.0
+fraud	-3.5
+scandal	-3.0
+bankruptcy	-4.0
+default	-3.5
+delisted	-3.5
+layoff	-2.0
+layoffs	-2.0
+restructuring	-1.5
+writedown	-2.5
+write-down	-2.5
+impairment	-2.5
+bearish	-2.5
+crash	-3.0
+plunge	-3.0
+plunged	-3.0
+plunges	-3.0
+selloff	-2.5
+sell-off	-2.5
+slump	-2.5
+tumble	-2.5
+tumbled	-2.5
+decline	-1.5
+declined	-1.5
+loss	-2.0
+losses	-2.0
+negative	-1.5
+headwind	-1.5
+risk	-1.0
+downside	-2.0
+weakness	-2.0
+weak	-1.5
+disappointing	-2.5
+disappointed	-2.5
+shortfall	-2.5
+warning	-2.0
+regulatory risk	-1.5
+fine	-1.5
+penalty	-2.0
+sanction	-2.0
+sanctions	-2.0
+tariff	-1.5
+tariffs	-1.5
+shutdown	-2.0
+supply chain disruption	-2.0
+debt concern	-2.0
+credit downgrade	-2.5
+# --- Moderately negative ---
+volatile	-1.0
+volatility	-1.0
+uncertain	-1.0
+uncertainty	-1.0
+cautious	-0.8
+concern	-1.0
+concerns	-1.0
+pressure	-1.0
+challenged	-1.0
+soft	-0.8
