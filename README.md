@@ -4,6 +4,10 @@ A Streamlit application that predicts the short-term directional outlook
 of a stock based on lexicon-based sentiment analysis of financial news,
 supported by technical features and honest model evaluation.
 
+## Screenshots
+
+![Overview](docs/overview.png)
+
 ---
 
 ## Setup
